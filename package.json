@@ -1,6 +1,6 @@
 {
   "name": "cabinet-js-sdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript SDK for Cabinet",
   "main": "index.js",
   "scripts": {
