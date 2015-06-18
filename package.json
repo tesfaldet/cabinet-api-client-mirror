@@ -1,7 +1,8 @@
 {
   "name": "cabinet-js-sdk",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "JavaScript SDK for Cabinet",
+  "publishConfig": {"registry": "http://d2lartifacts.artifactoryonline.com/d2lartifacts/api/npm/npm-local/"},
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,0 +1,4 @@
+registry = http://d2lartifacts.artifactoryonline.com/d2lartifacts/api/npm/npm-local
+_auth = <AUTH_KEY>
+email = <EMAIL>
+always-auth = true
