@@ -1,9 +1,9 @@
-# cabinet-js-sdk
+# cabinet-api-client
 This library provides access to common Cabinet APIs.
 ### Usage
 
 ```javascript
-    var cabinetSDK = require('cabinet-js-sdk');
+    var cabinetApi = require('cabinet-api-client');
 
     var config = {
     	apiUrl: 'http://localhost:8080/api',
@@ -12,9 +12,9 @@ This library provides access to common Cabinet APIs.
 		password: 'password'
     }
 
-    cabinetSDK.configure(config);
+    cabinetApi.configure(config);
 
-    return cabinetSDK.getEnrollment('userId', 'courseId')
+    return cabinetApi.getEnrollment('userId', 'courseId')
 		.then(function(enrollment) {
 			//...
 		}, function(err) {
