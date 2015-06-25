@@ -1,4 +1,4 @@
-checkout:
+dependencies:
   post:
     - curl -ks -u$ARTIFACTORY_USER:$ARTIFACTORY_PASS "https://d2lartifacts.artifactoryonline.com/v1/auth" -o .artifactorycfg
     - AUTH_KEY=$(awk '/auth.*/ {split($3, a, "\""); print a[2]}' .artifactorycfg); EMAIL=$(awk '/email.*/ {split($3, a, "\""); print a[2]}' .artifactorycfg); sed -e "s/<AUTH_KEY>/$AUTH_KEY/" .npmrc.template | sed -e "s/<EMAIL>/$EMAIL/" > .npmrc

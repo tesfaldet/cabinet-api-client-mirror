@@ -1,6 +1,6 @@
 {
   "name": "cabinet-api-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript API for Cabinet",
   "publishConfig": {"registry": "http://d2lartifacts.artifactoryonline.com/d2lartifacts/api/npm/npm-local/"},
   "main": "index.js",
